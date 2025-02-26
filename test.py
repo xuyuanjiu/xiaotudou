@@ -15,4 +15,4 @@ dr.find_element(By.CSS_SELECTOR, '#TANGRAM__PSP_11__isAgree').click()
 dr.find_element(By.CSS_SELECTOR, '#TANGRAM__PSP_11__submit').click()
 time.sleep(8)
 result = dr.find_element(By.CSS_SELECTOR, '#TANGRAM__PSP_11__error').text
-print(result)
+
